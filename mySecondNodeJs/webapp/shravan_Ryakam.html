@@ -1,0 +1,760 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" 
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html>
+
+<head>
+<title>SAPTechnical.COM - ABAP Tutorials</title>
+<meta name="description" content="SAPTECHNICAL.COM Let's share knowledge" />
+<meta name="keywords" content="SAP,ABAP,Tips,Tutorials,abap, alv" />
+<meta name="designer" content="My Arts Desire/Round the Bend Wizards" />
+<meta http-equiv="Content-Language" content="en-us" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="imagetoolbar" content="false" />
+<link rel="stylesheet" type="text/css" href="../../style.css" />
+</head>
+
+<body>
+
+<div class="wrapper">
+<table>
+<tbody>
+<tr>
+<td colspan="3" class="header"><!--webbot bot="Include" U-Include="../../include_sitename.htm" TAG="BODY" startspan -->
+
+
+<div align="center">
+  <center>
+
+<table border="0" width="102%" align="left">
+  <tr>
+    <td width="50%" align="right" valign="middle">
+    
+    <p><a href="../../index.htm"><img border="0" src="../../includ1.jpg" width="504" height="48"></a>
+    </td>
+    <td width="50%" align="center" valign="middle">
+
+
+
+<form action="http://www.google.com/cse" id="cse-search-box" target="_blank">
+  <div>
+    <input type="hidden" name="cx" value="partner-pub-1086451200925480:6t5c41-xr44" />
+    <input type="hidden" name="ie" value="ISO-8859-1" />
+    <input type="text" name="q" size="31" />
+    <input type="submit" name="sa" value="Search" />
+  </div>
+</form>
+<script type="text/javascript" src="http://www.google.com/cse/brand?form=cse-search-box&amp;lang=en"></script>
+
+
+
+    </td>
+  </tr>
+</table>
+
+
+  </center>
+</div>
+
+
+
+
+
+
+
+
+<!--webbot bot="Include" endspan i-checksum="64975" -->
+
+
+</td>
+</tr>
+<tr>
+<td colspan="3" class="navigation"><!--webbot bot="Include" u-include="../../include_mainnavigation.htm" tag="BODY" startspan -->
+<a href="../../index.htm">Home</a>  &bull; <a href="../../Trainings/Index.htm" target="_blank">Trainings</a> 
+&bull; <a href="../../Quiz/Index.htm" target="_blank">Quiz</a> &bull;                        
+<a href="../../Tips/tips.htm">Tips</a> &bull;                        
+<a href="../Tutorials.htm">Tutorials</a> &bull; <a href="http://www.sapfunctional.com/" target="_blank">Functional      
+</a> &bull; <a href="../../CertificationQ/CertificateMain.htm">Cert Q's</a>  &bull;                        
+<a href="../../InterviewQ/interviewQ.htm">Interview Q's</a> • <a href="../../Jobs/jobsMain.htm"> Jobs</a> &bull; <a href="../../Testimonials.htm">Testimonials</a>                
+ • <a href="../../Ads/Index.htm">Advertise</a> &bull;                        
+<a href="../../contact.htm">Contact Us</a> 
+
+<!--webbot bot="Include" endspan i-checksum="39535" -->
+
+</td>
+</tr>
+<tr>
+<td class="sidebar"><!--webbot bot="Include" u-include="../TutorialsSideBar.htm" tag="BODY" startspan -->
+
+
+
+
+<h4><a href="../../Trainings/Index.htm"><font color="#FF0000">SAP Virtual/Onsite
+Trainings</font></a></h4>
+
+
+
+
+<h4>Document Categories:</h4>
+<ul>
+<li><a href="ABAPMainPage.htm">ABAP<font size="1"><sup>TM</sup></font></a></li>
+<li><a href="../AdobeForms/index.htm">Adobe Forms</a> </li>
+<li><a href="../HRABAP/HRABAPMain.htm">ABAP-HR</a></li>
+<li><a href="../ALE/ALEMainPage.htm">ALE &amp; IDocs</a></li>
+<li><a href="../ALV/ALVMainPage.htm">ALV</a></li>
+<li><a href="../BAPI/BAPIMainPage.htm">BAPI</a></li>
+<li><a href="../Basis/index.htm">BASIS</a></li>
+<li><a href="../BSP/BSPMainPage.htm">BSP</a></li>
+<li><a href="../BOBJ/Index.htm">Business Objects&nbsp; </a> </li>
+<li><a href="../Workflow/Workflow.htm">Business Workflow</a> </li>
+<li><a href="../CRM/Index.htm">CRM</a> <b><font color="#FF0000">NEW</font></b> </li>
+<li><a href="../LSMW/LSMWMainPage.htm">LSMW</a> </li>
+<li><a href="../Smartforms/SFMain.htm">SAP Script/Smart Forms</a> </li>
+<li><a href="../BI/Index.htm">BI/BW</a> </li>
+<li><a href="../XI/XIMainPage.htm">eXchange Infrastructure (XI)</a> </li>
+<li><a href="../EP/Index.htm">Enterprise Portals (EP)</a>  </li>
+<li><a href="../eCATT/eCATTMain.htm">eCATT</a></li>
+<li><a href="../OOPS/MainPage.htm">Object Oriented Programming</a></li>
+<li><a href="../SAPQuery/SQMain.htm">SAP Query</a> </li>
+<li><a href="../ExitsBADIs/ExitsMain.htm">Userexits/BADIs</a></li>
+<li><a href="../WebDynproABAP/WebDynproABAPMain.htm">WebDynpro for Java/ABAP<font size="1"><sup>TM</sup></font></a> </li>
+<li><a href="../Others/Main.htm">Others</a></li>
+</ul>
+
+
+
+
+<h4>What's New?</h4>
+<ul>
+<li>
+
+
+<a href="ATC/Index.htm">ABAP Test Cockpit</a> <b><font color="#FF0000"><blink>HOT</blink></font></b></li>
+<li>
+
+
+<a href="Pragmas/Index.htm">SAP ABAP Pragmas</a></li>
+<li>
+
+
+<a href="Text/SE32.htm">Understanding SE32 (ABAP Text Element Maintenance)</a></li>
+<li>
+
+
+<a href="../ALE/File/Index.htm">Creating an IDoc File on SAP Application Server</a></li>
+<li>
+
+
+<a href="../Workflow/AWD/Index.htm">Understanding “Advance with dialog” option of SAP Workflow</a></li>
+<li>
+
+
+<a href="../Workflow/MN/Index.htm">SAP Workflow Scenario: Maintenance Notification Approval</a></li>
+<li>
+
+
+<a href="../OOPS/Enhancement/Index.htm">Enhancements to a standard class</a></li>
+<li>
+
+
+<a href="../AdobeForms/Floating/Index.htm">Working with Floating Field in Adobe Forms</a></li>
+<li>
+
+
+<a href="../Workflow/Container/ITable.htm">Inserting data from Internal Table into the step “Send Mail”</a></li>
+<li>
+
+
+<a href="../ExitsBADIs/GLAccount/Index.htm">Display GL Account long text using enhancement framework</a></li>
+<li>
+
+
+<a href="../OOPS/Polymorphism/Differences.htm">Differences between polymorphism in JAVA and ABAP</a></li>
+<li>
+
+
+<a href="../Workflow/Class/Multiline.htm">Passing multiline parameters from an ABAP Class event to a Workflow container</a></li>
+<li>
+
+
+<a href="../Workflow/Agent/Index.htm">Concept of Re-evaluate agents for active work items in SAP Workflow</a></li>
+<li>
+
+
+<a href="../WebDynproABAP/Dynamic/Component.htm">Dynamic creation of component usage in ABAP WebDynpro</a></li>
+<li>
+
+
+<a href="../AdobeForms/Symbols/Index.htm">Adobe Forms: Display symbols like
+copyright and others</a></li>
+<li>
+
+
+<a href="../ExitsBADIs/ME21N/Hold.htm">Deactivate Hold functionality in Purchase order
+(ME21N)</a></li>
+<li>
+
+
+<a href="../../Quiz/OOPS/Index.htm">Quiz on OOABAP</a></li>
+<li>
+
+
+<a href="../ExitsBADIs/FBL5N/Index.htm">Add fields in FBL5N using BADIs</a></li>
+<li>
+
+
+<a href="../OOPS/Wide/Index.htm">Tutorial on Wide casting</a></li>
+<li>
+
+
+<a href="Range/Index.htm">Defining a Range in Module Pool Program</a></li>
+<li>
+
+
+<a href="Table/Copy.htm">Copy fields from one structure/table into another structure/table</a></li>
+<li>
+
+
+<a href="../Others/NWBC/Sidepanel.htm">Side Panel Usage in NWBC</a></li>
+</ul>
+
+<a href="../../Contribute.htm"><h4>Contribute?</h4></a>
+
+<a href="../../SampleSpecs/index.htm"><h4>Sample
+Specs</h4></a>
+<h4>What's Hot?</h4>
+<p><b><a href="../WebDynproABAP/WebDynproABAPMain.htm">Web Dynpro for ABAP Tutorials&nbsp;</a></b></p>
+<hr>
+
+
+
+
+
+<!-- Start Bravenet.com Service Code -->
+<script type="text/javascript">
+function validate_elist_337727389()
+{
+    e = document.getElementById('elist_err337727389');
+    e.innerHTML="";
+    if  (!document.getElementById('elistaddress337727389').value.match(/^[-!#$%&'*+./0-9=?A-Z^_`a-z{|}]+@[-!#$%&'*+/0-9=?A-Z^_`a-z{|} ~.]+?.+[a-zA-Z]{2,4}$/i)) 
+    {
+        e.innerHTML += 'Invalid email address';
+    }
+    if (e.innerHTML != "") return false;
+    return true;
+}
+</script>
+<div align="center">
+<div style="border:1px solid #999999; width:215px; margin: 0px; ">
+<form action="http://pub49.bravenet.com/elist/add.php" method="post" style="margin:0px;" onsubmit="return  validate_elist_337727389()">
+<div style="background-color:#DBE0F5; padding:3px; font:12px arial; color:black;"><b>Join the Mailing List</b></div>
+<div style="margin:10px; font: 11px arial; color: black; text-align:center;">
+<div style="margin-bottom:5px;">Enter name and email address below:</div>
+Name: <input type="text" id="elistname" name="ename" size="25" maxlength="60" style="width: 170px"><br>
+Email: <input type="text" name="emailaddress" id="elistaddress337727389" size="25" maxlength="100" style="width: 170px"><br>
+<input type="radio" name="action" value="join" checked style="border: 0px;">Subscribe&nbsp;
+<input type="radio" name="action" value="leave" style="border: 0px;">Unsubscribe&nbsp;
+<input type="hidden" name="usernum" style="border: 0px solid black; height: 0px; width: 0px;" value="4182081751"><input  type="hidden" name="cpv"  style="border: 0px solid black; height: 0px; width: 0px;"  value="1">
+<input type="submit" name="submit" value="GO"></div>
+<div style="color: red" id="elist_err337727389"></div>
+</form>
+<!-- End Bravenet.com Service Code -->
+
+
+
+
+</div>
+
+
+
+
+</div>
+
+
+
+
+<!--webbot bot="Include" endspan i-checksum="25088" -->
+
+
+
+
+</td>
+<td class="maintext">
+
+
+<h4>An Excellence of Explanation of <h1>Shravan Ryakam</h1> & <h1> Shivani Ryakam </h1> on SAP-ABAP</h4>                                                              
+
+
+
+
+
+
+<h4>Dictionary</h4>
+
+
+
+
+
+
+<ul>
+  <li>Creating a Transparent Table (<a href="TableCreate/page1.htm">More details</a>)&nbsp;</li>   
+  <li>Copy fields from one structure/table into another structure/table (<a href="Table/Copy.htm">More       
+    details</a>)</li>  
+  <li>Creating a structure in ABAP Dictionary (<a href="Structure/Demo.htm">More                                                                                                                                                                                                                                                                             
+    details</a>)&nbsp;</li>
+  <li>Creating Search helps (Elementary and collective) <a href="SearchHelp/page1.htm"> (More details)</a></li>                                                                                                                                    
+  <li>Creating Type Group and using it in the ABAP program (<a href="TypeGroup/Index.htm">More                                                             
+    details</a>)&nbsp;</li>                                                             
+  <li>Creating a secondary index (<a href="SecondaryIndex/Create.htm">More                                                                                                                                                                                                                                                 
+    details</a>)&nbsp;</li>
+  <li>Working with table maintenance generator (<a href="TableMaintenance/demo.htm">More                                                                                                                                                                                                          
+    details</a>)</li>        
+  <li>Adding Custom button on Maintenance View (<a href="TableMaintenance/Index.htm">More                                                            
+    details</a>)&nbsp;</li>         
+  <li>Creation of a Logical Database (<a href="LDB/page1.htm">More details</a>)</li>                                                                                                                                                                                             
+  <li>Row level locking of database tables (<a href="Lock/Page1.htm">More   
+    details</a>)</li>                             
+  <li>Creation of a table pool and pooled table (<a href="Pool/Table.htm">More    
+    details</a>)</li>                            
+  <li>Creation of Table Cluster (<a href="TableCreate/Cluster.htm">More details</a>)</li>                              
+  <li>Creation of a View cluster (<a href="Range/Index.htm">More details</a>)</li>                              
+  <li>Adding new values in Standard Domain (<a href="Domain/Index.htm">More    
+    details</a>)</li>                              
+  <li>Comparison of Transparent, Pool and Cluster tables (<a href="Pool/Index.htm">More  
+    details</a>)</li>                                
+  <li>Creating a projection view (<a href="View/Index.htm">More details</a>)</li>                                    
+  <li>Providing multiple selection options in Search help (<a href="SearchHelp/Index.htm">More   
+    details</a>)</li>   
+  <li>Automatically populating the search help values into different fields on the selection screen by using search help exit   
+    (<a href="SearchHelp/Exit.htm">More details</a>)</li>    
+  <li>Creating custom search help for transaction MM03 (<a href="SearchHelp/MM03.htm">More   
+    details</a>)</li>      
+  <li>Demo on Search help exit for the material (<a href="SearchHelp/Demo.htm">More    
+    details</a>)</li>        
+  <li>Append Search Help (<a href="SearchHelp/Append.htm">More details</a>)&nbsp;</li>                             
+  <li>Include a structure more than once in a database table (<a href="Structure/Index.htm">More                      
+    details</a>)</li>          
+  <li>Creating Help Views (<a href="View/Help.htm">More details</a>)&nbsp;</li>                                                                  
+  <li>Creating Database Views (<a href="View/Database.htm">More details</a>)</li>                                                                   
+  <li>Database Utility (<a href="Utility/Index.htm">More details</a>)</li>              
+  <li>Create text table and assign to the main table (<a href="Text/Index.htm">More                                    
+    details</a>)&nbsp;</li>              
+  <li>Transaction code for table maintenance generator (<a href="TableMaintenance/TCode.htm">More                                   
+    details</a>)&nbsp;</li>                     
+  <li>Creating custom conversion routine and assigning to the domain (<a href="Conversion/Custom.htm">More                            
+    details</a>)</li>                 
+  <li>Append a new tab in Collective Search Help (MEKK) of Agreement in ME32K Transaction  
+    (<a href="SearchHelp/Collective.htm">More details</a>) <font color="#0000FF"><b>NEW</b></font></li>                 
+  <li>Creation and Deletion of Matchcode Objects (<a href="Matchcode/Index.htm">More  
+    details</a>) <b><font color="#0000FF">NEW</font></b></li>                  
+  <li>What is Table Description Generator? (<a href="Table/Index.htm">More  
+    details</a>) <font color="#0000FF"><b>NEW</b></font></li>                   
+  <li>Hot key concepts for ABAP Search help (<a href="SearchHelp/Hotkey.htm">More  
+    details</a>) <font color="#0000FF"><b>NEW</b></font></li>                     
+  <li>Table Maintenance without using SM30 or SE11 (<a href="TableMaintenance/Alternate.htm">More 
+    details</a>) <font color="#0000FF"><b>NEW</b></font></li>                     
+</ul>
+
+
+
+
+<h4>Reports</h4>                                                             
+<ul>
+  <li>ABAP Test Cockpit (<a href="ATC/Index.htm">More details</a>) <b> <font color="#0000FF">NEW  
+    </font><font color="#FF0000"><blink>HOT</blink></font></b></li>                                                                                                  
+  <li>SAP ABAP Pragmas (<a href="Pragmas/Index.htm">More details</a>) <b> <font color="#0000FF">NEW  
+    </font></b></li>                                                                                                  
+  <li>Understanding SE32 – ABAP Text Element Maintenance (<a href="Text/SE32.htm">More  
+    details</a>) <b><font color="#0000FF">NEW</font></b></li>                                                                                                   
+  <li>Display data dynamically using Field Symbols (<a href="FS/Index.htm">More  
+    details</a>) <font color="#0000FF"><b>NEW</b></font></li>                                                                                                  
+  <li>Insights of code inspector (<a href="CI/Index.htm">More details</a>) <b><font color="#0000FF">NEW</font></b></li>                                                                                                 
+  <li>Demo on Dynamic Mapping using Field Symbols (<a href="Dynamic/FS.htm">More  
+    details</a>) <b><font color="#0000FF">NEW</font></b></li>                                                                                                
+  <li>How to attach documents to an ABAP Program (<a href="Documentation/Attach.htm">More       
+    details</a>)&nbsp;</li>                                                                                               
+  <li>Graphical View of Transaction Code (<a href="TCode/Index.htm">More details</a>)</li>                                                                                                 
+  <li>Skip the AUTH check for transaction (<a href="Auth/Index.htm">More details</a>)</li>                                                                                              
+  <li>Find the main program for type I programs using Framework Programs (<a href="Search/Index.htm">More   
+    details</a>)</li>                                                                                            
+  <li>What is "Internal Program Environment"? (<a href="IPE/Index.htm">More      
+    details</a>)&nbsp;</li>                                                                                          
+  <li>Navigation stack for all the Object types (<a href="Navigation/Index.htm">More      
+    details</a>)</li>                                                                                        
+  <li>Splitter Screen Editor for Programs/Function Modules/Classes (<a href="Splitter/Index.htm">More   
+    details</a>)</li>                                                                                       
+  <li>Demo on Environmental Analysis (<a href="Analysis/Index.htm">More details</a>)&nbsp;</li>                                                                                                  
+  <li>Get the F4 help of a field based on the value of another field (<a href="F4/Index.htm">More                                  
+    details</a>)&nbsp;</li>                                                                                     
+  <li>Creating pushbuttons on the selection screen (<a href="PushButtons/Index.htm">More                                   
+    details</a>)</li>                                                                                   
+  <li>Selecting a selection screen variant dynamically (<a href="DynamicSelect/Index.htm">More  
+    details</a>)</li>                                                                                  
+  <li>Include translations in a transport request (<a href="Translations/Index.htm">More   
+    details</a>)</li>                                                                                
+  <li>Issue billing document output in XML format (<a href="XML/Billing.htm">More  
+    details</a>)</li>                                                                              
+  <li>Using Code Templates (<a href="CodeTemplates/Index.htm">More details</a>)</li>                                                                              
+  <li>Download/Upload a program along with PF-Status, Text elements,  
+    documentation and others (<a href="Program/Index.htm">More details</a>)</li>                                                                           
+  <li>PDF Viewer (<a href="PDFViewer/Demo.htm">More details</a>)</li>                                                                          
+  <li>Convert internal table data into HTML with out using Function Modules (<a href="HTML/withoutusingFM.htm">More   
+    details</a>)</li>                                                                      
+  <li>Convert internal table data into HTML using Function Modules (<a href="HTML/usingFM.htm">More  
+    details</a>)</li>                                                                      
+  <li>Adding custom context menu in classical list (<a href="contextmenu/list.htm">More   
+    details</a>)</li>                                                                     
+  <li>Dynamic Selection Screen (Drop downs, pushbuttons, radio buttons, icons) (<a href="DynamicSScreen/demo.htm">More   
+    details</a>)</li>                                                                  
+  <li>Creating Dynamic variant using table TVARV (<a href="DynamicVariant/TVARV.htm">More                                                                                                                                                                                                       
+    details</a>)&nbsp;</li>                                                                
+  <li>Display images (like company logo) on the selection-screen (<a href="image/selectionscreen.htm">More                                                                                                                                                                                                              
+    details</a>)&nbsp;</li>                                                               
+  <li>Custom Parameter-id Creation (<a href="ParameterID/custom.htm">More                                                                                                                                                                                                               
+    details</a>)&nbsp;</li>                                                             
+  <li>Creating Dynamic Patterns (<a href="DynamicPattern/page1.htm">More details</a>)&nbsp;</li>                                                                                                                                                                                                                                                                            
+  <li>Scheduling a background job by triggering an event (<a href="BackgroundJob/OnEvent.htm">More                                                                                                                                                                                                                            
+    details</a>)&nbsp;</li>                                                  
+  <li>E-mailing the background jobs (<a href="BackgroundJob/email.htm">More                                                                                                                                                                                                                               
+    details</a>)&nbsp;</li>                                                  
+  <li>Scheduling Background jobs using SM36 (<a href="BackgroundJob/Index.htm">More details</a>)</li>                                                           
+  <li>Scheduling Background jobs from Selection Screen (<a href="BackgroundJob/SelScreen.htm">More 
+    details</a>) <b><font color="#0000FF">NEW</font></b></li>                                                   
+  <li>Performance Tuning using Parallel Cursor (<a href="ParallelCursor.htm">More                                                                                                                                                                                                                            
+    details</a>)&nbsp;</li>                                                
+  <li>Creating a Transaction Variant <a href="TransactionVariant/Create.htm"> (More details)</a> &nbsp;</li>                                                                                                                                                                                                                                                                        
+  <li>ABAP Programming standards (<a href="PrgStandards/PrgStandards.htm">More                                                                                                                                                                                                                                  
+    details</a>)&nbsp;</li>                                          
+  <li>ABAP Performance Tuning Checklist (<a href="PerformanceCheckList.htm">More                                                                                                                                                                                                                                      
+    details</a>)&nbsp;</li>                                      
+  <li>Understanding SQL Trace (<a href="SQLTrace/page1.htm">More details</a>)&nbsp;</li>                                                                                                                                                                                                                                                                            
+  <li>Changing the text&nbsp; &quot;Sales Order&quot; to &quot;Billing                                                                                                                                                                                                                                                      
+    Request&quot; in the transactions VA01, VA02 and VA03 (<a href="ChangeVA01Text/page1.htm">More                                                                                                                                                                                                                                                     
+    details</a>)&nbsp;</li>                                         
+  <li>Creation of a web service in SAP <a href="../Others/WebService/Create.htm">(More                                                                                                                                                                                                                                                    
+    details</a>)&nbsp;</li>                                  
+  <li>Calling a web service in ABAP that validates an email id (<a href="../Others/ValidateEmailID/Webservice.htm">More                                                                                                                                                                                                                                                      
+    details</a>)&nbsp;</li>                                 
+  <li>Handling favorites in ABAP Workbench (<a href="Favorites/ABAPWorkbench.htm">More                                                                                                                                                                                                                                                      
+    details</a>)&nbsp;</li>                                
+  <li>Adding transaction code to the user’s favorite list using Function Module                                                                       
+    (<a href="Favorites/Index.htm">More details</a>)</li>                                                                
+  <li>Implementing events in Table Maintenance (<a href="TableMaintenance/events.htm">More                                                                                                                                                                                                                                                        
+    details</a>)&nbsp;</li>                              
+  <li>Using Sorted table and Index while processing internal tables (<a href="InternalTable/Processing.htm">More                                                                                                                                                                                                                                                        
+    details</a>)&nbsp;</li>                            
+  <li>Display Statistical Report using Function Module (<a href="Graphics/Index.htm">More        
+    details</a>) <font color="#0000FF"><b>NEW</b></font></li>                                    
+  <li>Displaying Graphics using ABAP Program (<a href="Graphics/Display.htm">More                                                                                                                                                                                                                                                          
+    details</a>)&nbsp;</li>                         
+  <li>The Features of ABAP<sup>TM</sup> New Editor - Part 2&nbsp;<a href="ABAPNewEditor2/page1.htm">(More                                                                                                                                                                                                                                                                                                    
+    details)</a> &nbsp;</li>                                                                                                                                                                                                                                                                                            
+  <li>The Features of ABAP<sup>TM</sup> New Editor - Part 1&nbsp;<a href="ABAPNewEditor1/ABAPNewEditor1.htm">(More                                                                                                                                                                                                                                                                                                    
+    details)</a></li>            
+  <li>Working with Menu Painter <a href="MenuPainter/page1.htm"> (More details)</a> </li>                                                                                                                                                                                                                                                     
+  <li>Enable or Disable Function Keys on the application tool bar and menu painter  
+    (<a href="MenuPainter/Index.htm">More details</a>)</li>                                                                                                                                                                                                                                                     
+  <li>Dynamic Variant in a report <a href="DynamicVariant/Procedure.htm">(More                                                                                                                                                                                                                                                                                     
+    details)</a> &nbsp;</li>                                                                                                                                                                                                                                                                                            
+  <li>Creating F1 helps with ease (<a href="F1Help/Create.htm">More details</a>)&nbsp;</li>                                                                                                                                                                                                                                                                                            
+  <li>Object oriented programming (OOP) explained with an example <a href="OOP/Example1.htm"> (More details)</a> &nbsp;</li>                                                                                                                                                                                                                                                                                                
+  <li>Calling an RFC function module from one system to another<a href="RFCCall/Page1.htm"> (More details)</a> &nbsp;</li>                                                                                                                                                                                                                                                                                               
+  <li>Updating Material Master long text (BASIC DATA TEXT, INSPECTION TEXT and                                                                                                                                                                                                                                                                                               
+    INTERNAL COMMENT) <a href="MaterialLongText/info.htm"> (More details)&nbsp; </a></li>                                                                                                                                                                                                                                                                                              
+  <li>System debugging -                                                                                                                                                                                                                                                                                                     
+Explained in detail&nbsp; <a href="SystemDebugging/Page1.htm">(More details)</a></li>                                                                                                                                                                                                                                                                                                   
+  <li>Debugging Popup Screen in ABAP (<a href="Debug/Popup.htm">More details</a>)</li>                                                                                                                                                                                                                
+  <li>Debugging Update Task and Back-ground Task (<a href="Debug/Index.htm">More   
+    details</a>)</li>                                                                                                                                                                          
+  <li>Creating watch points while debugging the ABAP Code (<a href="Debug/Watchpoint.htm">More   
+    details</a>)</li>                                                                                                                                                                            
+  <li>Automate debugging using ABAP debugger scripts (<a href="Debug/Automate.htm">More  
+    details</a>)</li>                                                                                                                                                                            
+  <li>MESSAGE XXXX RAISING XXXX.     
+What is this? <a href="MsgRaise/MessageRaising.htm">(More details)</a> </li> 
+  <li>Differences between   
+LSMW and BDC <a href="../../Tips/LSMW/DiffLSMWBDC.htm">(More details)</a></li>
+  <li>ABAP Performance Standards <a href="PerformanceSTDs.htm">(More details)</a></li>
+  <li>Create    
+/ Modify / Delete records in any table from CSV file <a href="UpdateFromCSV.htm">(More 
+    details)</a>             
+  </li>
+  <li>Download                                                                                                                                                                                                                                                                                                                  
+data from tables with user defined delimiters&nbsp;<a href="http://www.saptechnical.com/Docs/ABAP%20Code%20Sample%20for%20Download%20with%20User-Defined%20Delimiters.pdf">(More                                                                                                                                                                                                                                                                                                    
+    details)</a></li>
+  <li>Creation of a Number Range Object <a href="SNRO/SNRO.htm">(More details)</a></li>
+  <li>Creation of a Dynamic Internal table <a href="DynamicInternaltable/DynamicInternalTable.htm">(More 
+    details)</a></li>
+  <li>HR Infotype Creation <a href="HRInfotypeCreation/HRInfotype.htm">(More 
+    details)</a></li>
+  <li>A real-time example&nbsp; on sending PDF file as an email (Complete                                                                                                                                                                                                                                                                                             
+    program) (<a href="../../SampleSpecs/AutoVendorDebitPosting/AVDP.htm">More                                                                                                                                                                                                                                                                                             
+    details</a>)&nbsp;</li>
+  <li>Developing a simple interactive report (<a href="InteractiveReport/Demo.htm">More                                                                                                                                                                                                                                                                         
+    details</a>)<font color="#0000FF"><b> 
+    &nbsp;</b></font></li>                                                                                                                                                                                                                                                                        
+  <li>Demo on Interactive reporting (One more example) (<a href="InteractiveReport/page1.htm">More                                                                                                                                                                                                                                               
+    details</a>)<font color="#0000FF"><b> 
+    &nbsp;</b></font></li>                                                                                                                                                                                                                                                                   
+  <li>Downloading file on to the application server (<a href="DownloadFile/AppServer.htm">More                                                                                                                                                                                                                                                                         
+    details</a>)</li>                                               
+  <li>Creating a Function Module (<a href="FunctionModule/page1.htm">More  
+    details</a>)</li>                                                
+  <li>Creating a dynamic selection screen on a report (<a href="DynamicSScreen/Create.htm">More                                                                                                                                                                                                                      
+    details</a>)&nbsp;</li>                                                   
+  <li>Displaying 3D Graphs in ABAP (<a href="3DGraph/demo.htm">More details</a>)</li>                                                                                                                                                                                                                                                                        
+  <li>Creating a Tabstrip on the selection screen (<a href="Tabstrips/Selectionscreen.htm">More                                                                                                                                                                                                                   
+    details</a>)&nbsp;</li>                                                      
+  <li>Dynamic SELECT statement (<a href="DynamicSelect/Demo.htm">More details</a>)</li>                                                                                                                                                                                                                                                  
+  <li>Downloading report output into Excel using OLE (<a href="../../Tutorials/ABAP/OLE/Index.htm">More   
+    details</a>)</li>                                                                  
+  <li>Sending email with multiple tabs of excel as a single attachment in ABAP  
+    using OLE (<a href="OLE/MultipleTabs.htm">More details</a>) <font color="#0000FF"><b>NEW</b></font></li>                                                                    
+  <li>Understanding ABAP Unit (<a href="../OOPS/ABAPUnit/Index.htm">More details</a>)</li>                                                                     
+  <li>Understanding "Checkpoint Group" (<a href="CheckpointGroup/Index.htm">More   
+    details</a>)</li>                                                                      
+  <li>Understanding &quot;Coverage Analyzer&quot; (<a href="CoverageAnalyzer/Index.htm">More    
+    details</a>)</li>                                                                       
+  <li>FTP file transfer in Background (<a href="../../Tutorials/ABAP/FTP/Index.htm">More details</a>)</li>                                                                         
+  <li>Converting an XML file with many hierarchy levels to ABAP format (<a href="XML/Index.htm">More    
+    details</a>)</li>                                                                        
+  <li>Executing Function Modules sequentially using SE37 Transaction (<a href="FunctionModule/Index.htm">More  
+    details</a>)</li>                                                                            
+  <li>Handling Type 'E' messages from function modules (<a href="FunctionModule/Error.htm">More   
+    details</a>)</li>                                                                             
+  <li>Guide towards a simple conversion of an XML file to ABAP Internal table, using XML parsing   
+    (<a href="XML/Convert.htm">More details</a>)</li>                                                                               
+  <li>Embedding Image in mail body instead of sending it as an attachment (<a href="email/Index.htm">More   
+    details</a>)</li>                                                                                 
+  <li>To Create a search help with provision to select multiple values (<a href="SearchHelp/Multiple.htm">More   
+    details</a>)</li>                                                                                  
+  <li>How to maintain log for custom tables (Log Maintenance in CDHDR &amp; CDPOS tables)                                                                                   
+    (<a href="Log/Index.htm">More details</a>)&nbsp;</li>                                                                                  
+  <li>Flexible conversion of Internal Table values to XML format (<a href="XML/Conversion.htm">More                                                                                  
+    details</a>)</li>                                                                                    
+  <li>The new ‘RETRY’ statement in TRY…ENDTRY block (<a href="RETRY/Index.htm">More    
+    details</a>)</li>                                                                                       
+  <li>CLEANUP section in TRY…ENDTRY block (<a href="RETRY/CLEANUP.htm">More  
+    details</a>)</li>                                                                                       
+  <li>Text to speech in ABAP (<a href="Speech/Index.htm">More details</a>)</li>                                                                                        
+  <li>Store variables using Sets instead of TVARV(C) table (<a href="SET/Index.htm">More   
+    details</a>)</li>                                                                                       
+  <li>Working with Version Management (<a href="Version/Index.htm">More details</a>)</li>                                                                                         
+  <li>Including variants to the transport request (<a href="Transport/Index.htm">More    
+    details</a>)</li>                                                                                         
+  <li>How to move the object from one package to another (<a href="Transport/Move.htm">More  
+    details</a>)</li>                                                                                          
+  <li>SAP Code Compare (<a href="Version/Compare.htm">More details</a>)</li>                                                                                            
+  <li>Replicate select option functionality (<a href="SelectOptions/Replicate.htm">More   
+    details</a>)</li>                                                                                           
+  <li>Text Control on the Selection Screen (Editable/Non-Editable) (<a href="TextControl/Index.htm">More   
+    details</a>)</li>                                                                                             
+  <li>Sending a mail in HTML format with multiple images in the body of the mail  
+    (<a href="email/Multiple.htm">More details</a>) <b><font color="#0000FF">NEW</font></b></li>                                                                                              
+  <li>Overcome the default limit of 30 characters to parameters/select-options text on selection screen  
+    (<a href="Text/increase.htm">More details</a>) <font color="#0000FF"><b>NEW</b></font></li>                                                                                               
+  <li>How to do documentation for the Programs (<a href="Documentation/Index.htm">More  
+    details</a>) <b><font color="#0000FF">NEW</font></b></li>                                                                                                 
+  <li>HTML viewer in ABAP (<a href="HTML/Index.htm">More details</a>) <b><font color="#0000FF">NEW</font></b></li>                                                                                                  
+  <li>Avoiding automatic deletion of Short Dump (<a href="Dump/Index.htm">More 
+    details</a>) <b><font color="#0000FF">NEW</font></b></li>                                                                                                  
+</ul>
+
+
+
+
+
+
+
+
+<h4>Dialog Programming</h4>                            
+<ul>
+  <li>Modal Dialog Box in Module Pool Programming (<a href="Modal/Index.htm">More 
+    details</a>) <font color="#0000FF"><b>NEW</b></font></li>                                                                                                   
+  <li>Type any URL and browse it through SAP (<a href="url/Index.htm">More  
+    details</a>) <b><font color="#0000FF">NEW</font></b></li>                                                                                                   
+  <li>Working with "Respond to double Click" in Module Pool Programming (<a href="DoubleClick/Index.htm">More    
+    details</a>)</li>                                                                                                  
+  <li>Hiding and displaying screen elements/fields in Module pool Programming (<a href="Hide/Index.htm">More  
+    details</a>)</li>                                                                                                 
+  <li>Working with Subscreens (<a href="Subscreens/Index.htm">More details</a>)</li>                                                                                                 
+  <li>Create a Drop down field in Module pool program (<a href="Dropdown/Index.htm">More   
+    details</a>)</li>                                                                                               
+  <li>F4 help for date and time fields in Module pool programming (<a href="F4/MP.htm">More   
+    details</a>)</li>                                                                                              
+  <li>Making field mandatory/obligatory in Module pool programming (<a href="Field/Index.htm">More   
+    details</a>)</li>                                                                                              
+  <li>Radio buttons in Module pool programming (<a href="Radiobuttons/Index.htm">More   
+    details</a>)</li>                                                                                             
+  <li>Creation of Variants in Module Pool Program (<a href="Variant/Index.htm">More   
+    details</a>)</li>                                                                                             
+  <li>Simple Number Game in SAP (<a href="Game/Index.htm">More details</a>)</li>                                                                                             
+  <li>Attaching search help in module pool programming (<a href="SearchHelp/MP.htm">More   
+    details</a>)</li>                                                                                           
+  <li>Change Labels on screen at Run Time (<a href="Labels/Index.htm">More   
+    details</a>)</li>                                                                                          
+  <li>Context Menu in Dialog Programming (<a href="contextmenu/Index.htm">More   
+    details</a>)</li>                                                                                         
+  <li>Wizard creation in SAP (<a href="Wizard/Index.htm">More details</a>)</li>                                                                                        
+  <li>Step-by-step tutorial on using Step-loops (<a href="Steploop/Index.htm">More   
+    details</a>)</li>                                                                                       
+  <li>Simple way of defining Select-options in Module Pool Programming (<a href="SelectOptions/Index.htm">More   
+    details</a>)</li>                                                                                     
+  <li>Update any standard table field value (s) by using Table control with wizard   
+    (<a href="TableControl/Wizard.htm">More details</a>)</li>                                                                                  
+  <li>Dynamically editable cells in a table control (<a href="TableControl/Dynamic.htm">More  
+    details</a>)</li>                                                                                
+  <li>Open the text editor on clicking the button in the table control (<a href="TableControl/TextEditor.htm">More   
+    details</a>)</li>                                                                               
+  <li>Table Control using wizard (<a href="TableControl/Index.htm">More details</a>)</li>                                                                              
+  <li>Splitter Controls and Graphs (<a href="Splitter/Demo.htm">More details</a>)</li>                                                                           
+  <li>Text Edit Control Usage and Example (<a href="TextControl/Demo.htm">More   
+    details</a>)</li>                                                                        
+  <li>Displaying images on the screen (<a href="image/screen.htm">More details</a>)</li>                                                                        
+  <li>Working with Screen Painter <a href="ScreenPainter/Page1.htm"> (More details)</a> &nbsp;</li>                                                                                                                                                                                                                                                                        
+  <li>Demo on Tabstrips (<a href="Tabstrips/page1.htm">More details</a>)<b><font color="#0000FF"> &nbsp;</font></b></li>                                                                                                                                                                                                                                                                        
+  <li>Tab strip Control using Wizard (<a href="Tabstrips/Index.htm">More details</a>)</li>                                                                                                                                                                                                                                                                        
+  <li>Working with Checkbox&nbsp; (<a href="Checkbox/page1.htm">More                                                                                                                                                                                                                                                                   
+    details</a>)&nbsp;</li>          
+  <li>Demo using Table Control (<a href="TableControl/Demo.htm">More                                                                                                                                                                                                                                                          
+    details</a>)&nbsp;</li>                                   
+  <li>Display Logo on                                                                                                                                                                                                                               
+Screen <a href="DisplayLogoOnScreen/DisplayLogo.htm">(More details)</a></li>                                                                                                                                                                                                                                                              
+  <li>Translations for Transaction texts (<a href="Translations/TCode.htm">More  
+    details</a>) <font color="#0000FF"><b>NEW</b></font></li>                                                                                                                                                                                                            
+  <li>Dynamic Button Text in Module Pool Programming (<a href="Dynamic/Index.htm">More  
+    details</a>) <font color="#0000FF"><b>NEW</b></font></li>                                                                                                                                                                                                             
+  <li>Defining a Range in Module Pool Program (<a href="Range/Index.htm">More      
+    details</a>)&nbsp; <font color="#0000FF"><b>NEW</b></font></li>                                                                                                                                                                                                                 
+</ul>
+
+
+
+
+
+
+<h4>BDC Programming</h4>                        
+<ul>
+  <li>Water Puzzle in SAP (<a href="Puzzle/Index.htm">More details)</a> <font color="#0000FF"><b>NEW</b></font></li>                                                                               
+  <li>BDC using CALL TRANSACTION method (<a href="BDC/Index.htm">More details</a>) <font color="#0000FF"><b>NEW</b></font></li>                                                                               
+  <li>BDC using Session Method (<a href="BDC/Session.htm">More details</a>)&nbsp;</li>                                                                                 
+  <li>Handling Conversion errors (<a href="Conversion/Index.htm">More details</a>)</li>                                                                               
+  <li>How to do BDC without writing BDC Program (<a href="BDC/withoutBDC.htm">More                                                                                                                                                                                                                                    
+    details</a>)&nbsp;</li>                                                                         
+  <li>Creating a simple database table using BDC (<a href="BDC/DatabaseTable.htm">More                                                                                                                                                                                         
+    details</a>)</li>                                                                                    
+  <li>BDC recording from testing client to development client (<a href="BDC/Recording.htm">More  
+    details</a>)</li>                                                                                      
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+<hr>
+<p><b><font size="2" color="#0000FF">Check out our Tutorials on Workflow...For more details, <a href="../Workflow/Workflow.htm">click              
+here.</a></font></b></p>
+
+
+
+
+<p>&nbsp;
+</td>
+<td class="maintext">
+
+
+
+<script type="text/javascript"><!--
+google_ad_client = "pub-1086451200925480";
+google_ad_width = 160;
+google_ad_height = 600;
+google_ad_format = "160x600_as";
+google_ad_type = "text";
+google_ad_channel = "";
+//--></script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+
+
+
+</td>
+</tr>
+<tr>
+<td class="footerright" colspan="3">
+
+  <!--webbot bot="Include" u-include="../../include_footer.htm" tag="BODY" startspan -->
+
+
+<p align="center">
+
+
+
+
+
+	
+
+
+<font color="#000000">Please send us your feedback/suggestions                 
+at <a href="mailto:webmaster@SAPTechnical.COM">webmaster@SAPTechnical.COM</a>&nbsp;</font>              
+<p align="center"><font color="#000000">
+
+<a href="../../index.htm">Home</a> &bull; <a href="../../Contribute.htm">Contribute</a> &bull;                    
+<a href="../../aboutus.htm"> About Us </a> &bull;                   
+<a href="../../Privacy.htm"> Privacy </a> &bull;                    
+<a href="../../Termsofuse.htm"> Terms Of Use</a> &bull;&nbsp;<a href="../../disclaimer.htm">Disclaimer</a> &bull;&nbsp;<a href="../../Jobs/safe.htm">Safe</a>       
+&bull;                   
+<a href="../../contact.htm">Companies: Advertise on SAPTechnical.COM | Post Job</a> &bull;                          
+<a href="../../contact.htm">Contact Us</a> &nbsp;</font>                     
+</p>
+<p class="Copyright" style="margin: 0pt; text-indent: 0pt; line-height: 100%;" align="center"><font color="#808080" size="1"><font face="Times New Roman">©</font><font face="Symbol">2006-2007</font><font face="Arial, Helvetica, sans-serif"> 
+SAPTechnical.COM. All rights reserved.</font></font></p>
+<p class="Copyright" style="margin: 0pt; text-indent: 0pt; line-height: 100%;" align="center"><font color="#808080" face="Arial, Helvetica, sans-serif" size="1">All     
+product names are trademarks of their respective companies.&nbsp;SAPTechnical.COM 
+is in no way affiliated with SAP AG.<br>    
+</font><font color="#808080" face="Arial" size="1">SAP, SAP R/3, R/3 software,  
+mySAP, ABAP, BAPI, xApps, SAP NetWeaver, and and any other SAP trademarks are  
+registered trademarks of SAP AG in Germany and in several other countries.</font><font face="Arial" size="1"><br> 
+</font><font color="#808080" face="Arial, Helvetica, sans-serif" size="1">Every  
+effort is made to ensure content integrity. Use information on this site at your  
+own risk.</font></p> 
+
+
+
+
+
+
+<p align="center">
+
+Graphic Design by <a href="http://www.rtbwizards.com">Round the Bend Wizards</a>  
+
+
+
+<!--webbot bot="Include" endspan i-checksum="24028" -->
+
+
+</td>
+</tr>
+<tr>
+<td><img src="../../images/transparent.gif" width="250" height="5" alt="footer image" /></td>
+<td><img src="../../images/transparent.gif" width="500" height="5" alt="footer image" /></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-1577116-1";
+urchinTracker();
+</script>
+</body>
+
+</html>
